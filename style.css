@@ -31,4 +31,41 @@ body {
   transform: translate(-50%, -50%);
   width: 50px;
   height: 50px;
+  opacity: 0;
+}
+
+.heart.active {
+  animation: animate 0.8s linear forwards;
+}
+
+@keyframes animate {
+  30% {
+    opacity: 1;
+    width: 80px;
+    height: 80px;
+  }
+
+  50% {
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+  }
+
+  70% {
+    opacity: 1;
+    width: 70px;
+    height: 70px;
+  }
+
+  80% {
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+  }
+
+  90% {
+    opacity: 1;
+    width: 60px;
+    height: 60px;
+  }
 }
